@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main ul {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  list-style: decimal;
+}
